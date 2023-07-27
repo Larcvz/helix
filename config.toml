@@ -1,0 +1,53 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+cursorline = true
+
+[editor.statusline]
+left = ["mode", "file-name", "file-modification-indicator", "spinner"]
+center = []
+right = [
+	"diagnostics",
+	"selections",
+	"position",
+	"total-line-numbers",
+	"file-encoding",
+	"file-line-ending",
+	"file-type",
+]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·"  # Tabs will look like "→···" (depending on tab width)
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 0
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+[keys.insert]
+j = { k = "normal_mode" } # Maps `jk` to exit insert mode

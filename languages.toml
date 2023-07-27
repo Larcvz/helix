@@ -1,0 +1,4 @@
+[[language]]
+name = "cpp"
+config = { fallbackFlags = ["-std=c++2a"] }
+indent = { tab-width = 4, unit = "\t" }
