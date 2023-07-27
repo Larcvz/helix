@@ -3,6 +3,7 @@ theme = "onedark"
 [editor]
 line-number = "relative"
 cursorline = true
+bufferline = "always"
 
 [editor.statusline]
 left = ["mode", "file-name", "file-modification-indicator", "spinner"]
