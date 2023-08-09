@@ -1,3 +1,5 @@
+use-grammars = { only = ["rust", "c", "cpp", "toml"] }
+
 [[language]]
 name = "cpp"
 config = { fallbackFlags = ["-std=c++2a"] }
