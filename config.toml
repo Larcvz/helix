@@ -6,7 +6,7 @@ cursorline = true
 bufferline = "always"
 
 [editor.statusline]
-left = ["mode", "file-name", "file-modification-indicator", "spinner"]
+left = ["mode", "file-name", "file-modification-indicator", "spinner", "version-control"]
 center = []
 right = [
 	"diagnostics",
